@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>jQuery UI Datepicker - Default functionality</title>
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <link rel="stylesheet" href="/resources/demos/style.css">
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <script>
+     $( function() {
+       $( "#datepicker" ).datepicker();
+     } );
+     </script>
+     </head>
+  <body>
+     <link rel="stylesheet" href="newtaskcss.css" />
+           <div class="newtask">
+             <p>UPDATE YOUR PLAN HERE</p>
+             <form method="get">
+               <label><b>TASK ID</b></label
+               ><input type="text" name="taskid" id="taskid" /><br />
+               <label><b>TASK NAME</b></label
+               ><input type="text" name="newtaskname" id="taskname" /><br />
+               <label><b>CATEGORY</b></label
+               ><input type="text" name="newcategory" id="category" /><br />
+               <label><b>DUE DATE</b></label
+           ><br><input type="text" name="newduedate" id="datepicker"><br>
+           
+               <input type="hidden" name="newusername" value="Krithika" id="username" /><br>
+               <a href="login.jsp">
+        <button
+          type="submit"
+          style="color: white; background-color: black; font-size: 20px"
+          formaction="update.jsp"
+        >
+         UPDATE
+        </button>
+        </a>
+      </form>
+    </div>
+  </body>
+</html>
